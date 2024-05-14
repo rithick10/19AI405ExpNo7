@@ -12,8 +12,8 @@ Recursively evaluates all possible moves and their potential outcomes, creating 
 Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heuristic. It stops evaluating a move when it makes sure that it’s worse than a previously examined move. Such moves need not to be evaluated further.
 When added to a simple minimax algorithm, it gives the same output but cuts off certain branches that can’t possibly affect the final decision — dramatically improving the performance
 ```Python
-import time                                            # Developed By: KARTHIKEYAN R
-class Game:                                            # Register No : 212222240046
+import time                                            # Developed By: Allen Steve Bernard B
+class Game:                                            # Register No : 212221220004
     def __init__(self):
         self.initialize_game()
     def initialize_game(self):
